@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #05072911;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+}
+
+.sidebar {
+  width: 15%;
+  height: 100%;
+  background-color: #05072959;
+  float: left;
+  position: fixed;
+}
+
+.content {
+  width: 80%;
+  float: left;
+  margin-top: 100px;
+  margin-left: 400px;
+
+}
+
+.content-in {
+  width: 80%;
+  margin: 150px auto;
+  color: aliceblue;
+
+}
+
+h1 {
+  font-style: 50px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  color: #fff;
+}
+
+h1 span {
+  font-style: 60px;
+  color: #A276FF;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+  font-style: 20px;
+  color: #fff;
+}
+
+.conteiner-in-2 {
+  width: 75%;
+  margin: 150px auto;
+  background-color: #fff;
+
+}
+
+.btn {
+  margin-top: 50px;
+  width: 250px;
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  font-family: "Oswald", sans-serif;
+  color: aliceblue;
+}
+
+.container-img-content {
+  margin-top: 70px;
+  height: 160px;
+  margin-bottom: 70px;
+}
+
+.block {
+  width: 20%;
+  height: 150px;
+  float: left;
+  margin-right: 5%;
+}
+.h2{
+  margin-top: 50px;
+}
+
+h2 {
+  color: white;
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.logo {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.logo img {
+  display: block;
+  margin: auto;
+}
+
+.menu {
+  margin-top: 70px;
+}
+
+.menu-sidebar {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  list-style: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.menu-sidebar li {
+  margin-top: 20px;
+}
+
+.menu-sidebar li:hover {
+  color: #A276FF;
+}
+
+.menu-sidebar li:hover::before {
+  content: "";
+  border: 2px solid #A276FF;
+  position: absolute;
+  height: 18px;
+  left: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.top-block {
+  position: fixed;
+  top: 0;
+  left: 80%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background-color: #A276FF;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.violet-button {
+  background-color: #8056da;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.violet-button:hover {
+  background-color: #42189c;
+  transform: scale(1.05);
+}
+
+.violet-button:active {
+    transform: scale(0.95);
+  }

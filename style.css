@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.all {
+  /* background-color: #93935c; */
+  background-image: url("fon.webp");
+  background-size: contain;
+  font-family: "Bitter", serif;
+}
+
+.navig {
+  display: flex;
+  justify-content: center;
+}
+
+.navig2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar {
+  font-family: "Bitter", serif;
+  background-color: #007bff;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  height: 70px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background-color: #0056b3;
+  color: white;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.foto {
+  height: 300px;
+  width: 300px;
+}
+
+.box1 {
+  font-family: "Bitter", serif;
+  padding: 30px 15px;
+}
+
+.hello {
+  width: fit-content;
+  margin: auto;
+  background-image: url('stwhite.png');
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  color: rgb(9, 5, 39);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box2 {
+  font-family: "Bitter", serif;
+  padding: 40px 25px;
+  width: fit-content;
+  margin: auto;
+  background-image: url('stbluemin.png');
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  color: rgb(9, 5, 39);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.abouttext {
+  margin-top: 110px;
+  font-size: 20px;
+}
+
+.hello img {
+  box-shadow: 5px 5px 10px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.foto {
+  border-radius: 5%;
+  max-width: 100%;
+  height: auto;
+}
+
+.text {
+  margin-top: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding-left: 20px;
+}
+
+.box3 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 15px;
+}
+
+.item {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card {
+  margin: 15px;
+}
+
+.project {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.doc {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.carousel {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-inner img {
+  width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000000;
+}
+
+@media (max-width: 600px) {
+  .carousel-inner img {
+    width: 100%;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 20px;
+}

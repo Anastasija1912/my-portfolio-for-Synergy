@@ -1,0 +1,29 @@
+.calc {
+  width: 420px;
+  border-radius: 5px;
+  background-color: #452d52;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.calc input {
+  width: 300px;
+  height: 35px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 10px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin-top: 5px;
+}
